@@ -68,7 +68,7 @@
 <body>
   <div class="login-container">
     <h2>Laundry System Login</h2>
-   <form id="signinForm" method="get" onsubmit="signinSubmit(event)">
+    <form action="dashboard.php" method="POST">
       <input type="text" id="username" name="username" placeholder="Username" required>
       <input type="password" id="password" name="password" placeholder="Password" required>
       <select name="role" required>
